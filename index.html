@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가비아 글로벌</title>
+    <link rel="icon" href="img/favicon.ico" colo>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://kit.fontawesome.com/e2f89fe93c.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <header class="fixed-top bg-white">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo d-flex align-items-center">
+                <a href="#">
+                    <img src="img/logo.png" alt="#">
+                </a>
+            </div>
+            <nav class="pc navbar navbar-expand">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item mx-1 mx-md-3">
+                                <a class="nav-link text-dark" href="#">아마존 입점</a>
+                            </li>
+                            <li class="nav-item mx-1 mx-md-3">
+                                <a class="nav-link text-dark" href="#">알리바바 입점</a>
+                            </li>
+                            <li class="nav-item mx-1 mx-md-3">
+                                <a class="nav-link text-dark" href="#">쇼핑몰 제작</a>
+                            </li>
+                            <li class="nav-item ms-1 ms-md-3">
+                                <a class="nav-link text-dark" href="#">국내몰 운영</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <nav class="mobile navbar d-lg-none">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+                        aria-controls="offcanvasDarkNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link text-black opacity-75 fw-bold" href="#">아마존 입점</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-black opacity-75 fw-bold" href="#">알리바바 입점</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-black opacity-75 fw-bold" href="#">쇼핑몰 제작</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-black opacity-75 fw-bold" href="#">국내몰 운영</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- main -->
+    <main>
+        <!-- section_visual -->
+        <section class="visual">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <img src="img/220614.jpg" alt="#">
+                        </div>
+                    </div>
+                    <div class="carousel-item position-relative">
+                        <div class="d-flex justify-content-center">
+                            <img src="img/210611_bg.jpg" alt="#">
+                        </div>
+                        <div class="visual_text position-absolute">
+                            <img src="img/210611_logo.png" alt="#">
+                            <p class="text-white mt-4 fs-1 fw-bold">중소벤처기업진흥공단 <br><span>온라인수출지원사업</span> 공식 수행기관 선정</p>
+                            <p class="text-white mb-5 fs-5">2016년부터 7년 연속 선정, 가비아CNS</p>
+                            <a href="#" class="text-white border border-2 rounded-5 px-3 px-lg-5 py-2">자세히보기</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item position-relative">
+                        <div class="d-flex justify-content-center">
+                            <img src="img/210616_bg.jpg" alt="#">
+                        </div>
+                        <div class="visual_text position-absolute">
+                            <img src="img/210616_logo.png" alt="#">
+                            <p class="text-white mt-4 fs-1 fw-bold">알리바바닷컴 <br>GGS 멤버십 할인</p>
+                            <p class="text-white mb-5 fs-5"><span>골드서플라이어(GGS) 멤버십 및 </span>GGS 플러스 멤버십 단기 할인 프로모션</p>
+                            <a href="#" class="text-white border border-2 rounded-5 px-3 px-lg-5 py-2">자세히보기</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <div class="bg-black opacity-50 rounded-circle p-3">
+                        <span class="carousel-control-prev-icon d-flex align-items-center" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </div>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <div class="bg-black opacity-50 rounded-circle p-3">
+                        <span class="carousel-control-next-icon d-flex align-items-center" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </div>
+                </button>
+            </div>
+        </section>
+        <!-- section_service -->
+        <section class="service">
+            <div class="container">
+                <div class="service_item py-2 py-md-5 row">
+                    <h2 class="col-12 fw-bold text-center py-2 py-md-5 my-5">해외 마켓 전문가가 <br>수출을 도와드립니다</h2>
+                    <ul class="d-flex justify-content-center pb-5">
+                        <li class="col-6 text-center text-md-start">
+                            <a href="#" class="d-md-flex align-items-center">
+                                <img src="img/logo_amazon.png" alt="#" class="rounded-circle mb-2 m-md-0">
+                                <div class="ms-md-2 ms-xl-5">
+                                    <div class="d-flex justify-content-center justify-content-md-start">
+                                        <p class="text-dark h5 fw-bold py-2 py-md-0">아마존 입점</p>
+                                        <i class="bi bi-arrow-right text-dark ms-3"></i>
+                                    </div>
+                                    <p class="text-black-50">전 세계 3억명의 아마존 고객을 대상으로 고객사의 온라인 스토어를 오픈 및 운영 대행</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col-6 text-center text-md-start">
+                            <a href="#" class="d-md-flex align-items-center">
+                                <img src="img/logo_alibaba.png" alt="#" class="rounded-circle mb-2 m-md-0">
+                                <div class="ms-md-2 ms-xl-5">
+                                    <div class="d-flex justify-content-center justify-content-md-start">
+                                        <p class="more text-dark h5 fw-bold py-2 py-md-0">알리바바 입점</p>
+                                        <i class="bi bi-arrow-right text-dark ms-3"></i>
+                                    </div>
+                                    <p class="text-black-50">글로벌 최대 온라인 B2B 플랫폼 알리바바닷컴의 공식파트너 <br>알리바바 입점 및 운영 대행</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="service_item py-2 py-md-5 row">
+                    <h2 class="col-12 fw-bold text-center py-2 py-md-5 my-5">글로벌 쇼핑몰 제작, <br>국내몰 운영도 가능합니다</h2>
+                    <ul class="d-flex justify-content-center pb-5">
+                        <li class="col-6 text-center text-md-start">
+                            <a href="#" class="d-md-flex align-items-center">
+                                <img src="img/logo_shoppingmall.png" alt="#" class="rounded-circle mb-2 m-md-0">
+                                <div class="ms-md-2 ms-xl-5">
+                                    <div class="d-flex justify-content-center justify-content-md-start">
+                                        <p class="more text-dark h5 fw-bold py-2 py-md-0">쇼핑몰 제작</p>
+                                        <i class="bi bi-arrow-right text-dark ms-3"></i>
+                                    </div>
+                                    <p class="text-black-50">글로벌 솔루션 (마젠토, 우커머스) 기반의 글로벌 쇼핑몰 제작 <br>국내 쇼핑몰 (가비아 퍼스트몰)</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="col-6 text-center text-md-start">
+                            <a href="#" class="d-md-flex align-items-center">
+                                <img src="img/logo_domestic.png" alt="#" class="rounded-circle mb-2 m-md-0">
+                                <div class="ms-md-2 ms-xl-5">
+                                    <div class="d-flex justify-content-center justify-content-md-start">
+                                        <p class="more text-dark h5 fw-bold py-2 py-md-0">국내몰 운영</p>
+                                        <i class="bi bi-arrow-right text-dark ms-3"></i>
+                                    </div>
+                                    <p class="text-black-50">자사몰 운영대행 <br>제휴 판매 채널 입점 및 운영 대행</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- section_special -->
+        <section class="special">
+            <div class="container d-flex row">
+                <div class="col-12 col-xl-3 text-center text-md-start mb-4 mb-md-0">
+                    <h2 class="fs-1 fw-bold">가비아 글로벌이 <br>더 특별한 이유</h2>
+                </div>
+                <div class="col-12 col-xl-9">
+                    <ul>
+                        <li class="special_title col-12">
+                            <ul class="d-flex justify-content-between">
+                                <li class="special_list p-4 d-flex align-items-center bg-white mb-3 mb-md-0">
+                                    <div class="w-50 text-center">
+                                        <img src="img/ico_special1.png" alt="">
+                                    </div>
+                                    <div class="w-50 d-flex">
+                                        <p>중진공 온라인 수출 지원사업<br>6년 연속 공식 수행기관</p>
+                                    </div>
+                                </li>
+                                <li class="special_list p-4 d-flex align-items-center bg-white">
+                                    <div class="w-50 text-center">
+                                        <img src="img/ico_special2.png" alt="">
+                                    </div>
+                                    <div class="w-50">
+                                        <p>알리바바 닷컴 한국 공식 파트너<br>2019년 한국 파트너사<br>종합 평가 1위</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="special_title col-12 my-3">
+                            <ul class="d-flex justify-content-between">
+                                <li class="special_list p-4 d-flex align-items-center bg-white mb-3 mb-md-0">
+                                    <div class="w-50 text-center">
+                                        <img src="img/ico_special3.png" alt="">
+                                    </div>
+                                    <div class="w-50">
+                                        <p>중소벤처기업부 지정<br>수출유망중소기업</p>
+                                    </div>
+                                </li>
+                                <li class="special_list p-4 d-flex align-items-center bg-white">
+                                    <div class="w-50 text-center">
+                                        <img src="img/ico_special4.png" alt="">
+                                    </div>
+                                    <div class="w-50">
+                                        <p>수출바우처 사업<br>공식 수행기관</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="special_title col-12">
+                            <ul class="d-flex">
+                                <li class="special_list_bottom col-12 p-4 d-flex flex-column flex-md-row align-items-center bg-white">
+                                    <div class="w-100 w-md-50 text-center mb-3 mb-md-0">
+                                        <img src="img/ico_special5.png" alt="">
+                                    </div>
+                                    <div class="w-100 w-md-50 text-center text-md-start">
+                                        <p>산업통산자원부, 한국무역협회 지정<br>전문무역상사</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- section_comm -->
+        <section class="comm mb-5">
+            <div class="container text-center py-5">
+                <h3 class="h1 fw-bold text-white my-4"><span>간단한 궁금증이라도</span> 지금 바로 확인해보세요</h3>
+                <p class="text-white my-4">가비아CNS의 해외 마켓 전문가가 답변을 드립니다.</p>
+                <a href="#" class="tel d-block text-white my-2">070-4331-5361</a>
+                <a href="#" class="qna d-inline-block text-white border border-2 rounded-5 px-5 py-2 my-4">상담하기</a>
+            </div>
+        </section>
+        <!-- section_news -->
+        <section class="news py-lg-5">
+            <div class="container my-lg-5">
+                <h2 class="fw-bold mb-4 mb-md-5">가비아 글로벌의 새소식</h2>
+                <ul class="d-flex">
+                    <li class="news_list">
+                        <a href="#">
+                            <div class="news_img">
+                                <img src="img/633ce2c9406d7.jpg" alt="">
+                            </div>
+                            <div class="news_con fw-bold">
+                                <div class="d-flex my-2">
+                                    <button type="button" class="border text-black opacity-75 fw-bold bg-white rounded px-2 py-1 me-1"><a>새소식</a></button>
+                                    <button type="button" class="border text-black opacity-75 fw-bold bg-white rounded px-2 py-1"><a>이벤트</a></button>
+                                </div>
+                                <p class="text-black">소상공인 지원도 받고 백화점 상품권도 받자!</p>
+                                <p class="text-muted opacity-75">2022.10.05</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="news_list">
+                        <a href="#">
+                            <div class="news_img">
+                                <img src="img/633401e7a7494.jpg" alt="">
+                            </div>
+                            <div class="news_con fw-bold">
+                                <div class="d-flex my-2">
+                                    <button type="button" class="border text-black opacity-75 fw-bold bg-white rounded px-2 py-1 me-1"><a>새소식</a></button>
+                                    <button type="button" class="border text-black opacity-75 fw-bold bg-white rounded px-2 py-1"><a>이벤트</a></button>
+                                </div>
+                                <p class="text-black">전담셀러 서포터즈를 모집합니다!</p>
+                                <p class="text-muted opacity-75">2022.09.28</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="news_list">
+                        <a href="#">
+                            <div class="news_img">
+                                <img src="img/6265ffde46492.jpeg" alt="">
+                            </div>
+                            <div class="news_con fw-bold">
+                                <div class="d-flex my-2">
+                                    <button type="button" class="border text-black opacity-75 fw-bold bg-white rounded px-2 py-1 me-1"><a>새소식</a></button>
+                                    <button type="button" class="border text-black opacity-75 fw-bold bg-white rounded px-2 py-1"><a>공지</a></button>
+                                </div>
+                                <p class="text-black">소상공인 누구나 완판셀러에 도전하세요!</p>
+                                <p class="text-muted opacity-75">2022.04.25</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="news_list">
+                        <a href="#">
+                            <div class="news_img">
+                                <img src="img/6243b247c8625.jpeg" alt="">
+                            </div>
+                            <div class="news_con fw-bold">
+                                <div class="d-flex my-2">
+                                    <button type="button" class="border text-black opacity-75 fw-bold bg-white rounded px-2 py-1 me-1"><a>새소식</a></button>
+                                    <button type="button" class="border text-black opacity-75 fw-bold bg-white rounded px-2 py-1"><a>공지</a></button>
+                                </div>
+                                <p class="text-black">2022년 북미 지역 (아마존) 수출 참여 기업 모집! 문의 전화 070-4331-5317</p>
+                                <p class="text-muted fw-light">해외시장 진출을 희망하는 중소기업이라면, 정부 지원받고 수출하세요. 가비아CNS와 함께 북미 지역...</p>
+                                <p class="text-muted opacity-75">2022.03.23</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer class="mt-5 pt-3">
+            <div class="container">
+                <div class="top py-5 d-flex justify-content-between flex-column flex-lg-row">
+                    <div class="left">
+                        <h4>500여개 업체,<br>3,000종 이상의 제품을 수출한</h4>
+                        <h3 class="fw-bold">가비아 글로벌과 함께하세요.</h3>
+                        <a href="#" class="qna d-inline-block text-white bg-black rounded-5 px-5 py-2 my-4">상담하기</a>
+                    </div>
+                    <div class="right w-50 d-flex justify-content-between flex-column flex-md-row">
+                        <div class="siteMap d-none d-md-block">
+                            <p class="fw-bold">Sitemap</p>
+                            <ul>
+                                <li class="mb-2"><a>아마존 입점</a></li>
+                                <li class="mb-2"><a>알리바바 입점</a></li>
+                                <li class="mb-2"><a>쇼핑몰 제작</a></li>
+                                <li class="mb-2"><a>국내몰 운영</a></li>
+                                <li class="mb-2"><a>새소식</a></li>
+                            </ul>
+                        </div>
+                        <div class="familySite d-none d-md-block">
+                            <p class="fw-bold">Family site</p>
+                            <ul>
+                                <li class="mb-2"><a>가비아CNS</a></li>
+                                <li class="mb-2"><a>퍼스트몰</a></li>
+                                <li class="mb-2"><a>이셀러스</a></li>
+                                <li class="mb-2"><a>다이애드</a></li>
+                                <li class="mb-2"><a>마젠토코리아</a></li>
+                                <li class="mb-2"><a>가비아 홈페이지</a></li>
+                                <li class="mb-2"><a>클릭엔</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown d-md-none mb-1">
+                            <button class="btn btn-dark dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Sitemap
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark w-100">
+                                <li><a class="dropdown-item" href="#">아마존 입점</a></li>
+                                <li><a class="dropdown-item" href="#">알리바바 입점</a></li>
+                                <li><a class="dropdown-item" href="#">쇼핑몰 제작</a></li>
+                                <li><a class="dropdown-item" href="#">국내몰 운영</a></li>
+                                <li><a class="dropdown-item" href="#">새소식</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown d-md-none">
+                            <button class="btn btn-dark dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Family site
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark w-100">
+                                <li><a class="dropdown-item" href="#">가비아CNS</a></li>
+                                <li><a class="dropdown-item" href="#">퍼스트몰</a></li>
+                                <li><a class="dropdown-item" href="#">이셀러스</a></li>
+                                <li><a class="dropdown-item" href="#">다이애드</a></li>
+                                <li><a class="dropdown-item" href="#">마젠토코리아</a></li>
+                                <li><a class="dropdown-item" href="#">가비아 홈페이지</a></li>
+                                <li><a class="dropdown-item" href="#">클릭엔</a></li>
+                            </ul>
+                        </div>
+                        <div class="sns mt-4 mt-md-0">
+                            <p class="fw-bold">SNS</p>
+                            <ul class="d-flex">
+                                <li class="me-2">
+                                    <a href="#">
+                                        <img src="img/ico_blog.png" alt="" class="bg-black rounded-circle">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/ico_youtube.png" alt="" class="bg-black rounded-circle">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom d-flex justify-content-between flex-column flex-md-row border-top py-3 text-center">
+                    <a href="#" class="text-black opacity-75">개인정보처리방침</a>
+                    <p class="text-muted opacity-75">© 2021 GabiaCNS Inc. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

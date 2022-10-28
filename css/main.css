@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+/* header */
+header {
+    height: 60px;
+}
+header > div {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+header a {
+    font-size: 14px!important;  
+}
+header .mobile > * {
+    padding: 0!important;
+    margin: 0!important;
+}
+header .mobile .navbar-toggler {
+    padding: 0!important;
+    border: none;
+    color: #fff!important;
+}
+
+/* main */
+main {
+    margin-top: 60px;
+}
+
+/* section_visual */
+.visual_text {
+    top: calc(50% - 170px);
+    left: 10%;
+}
+.visual_text a {
+    transition: all .3s;
+}
+.visual_text a:hover {
+    background-color: #fff;
+    color: #000!important;
+}
+
+/* section_service */
+.service h2 {
+    font-size: 40px;
+}
+.row {
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+.service ul {
+    padding-left: 0!important;
+}
+.service_item:last-child {
+    border-top: 1px solid #dedede;
+}
+.service img {
+    background-color: #F6F6F6;
+}
+
+/* section_special */
+.special {
+    background-color: #F6F6F6;
+}
+.special > div {
+    padding: 100px 0;
+}
+.special ul {
+    padding-left: 0!important;
+}
+.special_title:nth-child(1),
+.special_title:nth-child(2) {
+    width: 100%;
+}
+.special_list {
+    width: calc(50% - .5rem);
+}
+.special_list:nth-last-of-type(even) {
+    margin-right: 1rem;
+}
+.special p {
+    margin-bottom: 0!important;
+}
+
+/* section_comm */
+.comm {
+    background: url('../img/bg_ask.jpg') no-repeat center center / cover;
+}
+.comm p {
+    font-size: 18px;
+}
+.comm .tel {
+    font-size: 40px;
+}
+.comm .qna{
+    transition: all .5s;
+}
+.comm .qna:hover {
+    background-color: #fff;
+    color: #2598e8 !important;
+}
+
+/* section_news */
+.news ul {
+    padding-left: 0!important;
+}
+.news h2 {
+    font-size: 40px;
+}
+.news_list {
+    width: calc(25% - 18px);
+    margin-right: 36px;
+}
+.news_list:last-child {
+    margin-right: 0;
+}
+.news_img {
+    overflow: hidden;
+    max-height: 172px;
+}
+.news_img img {
+    width: 100%;
+}
+.news_list button {
+    font-size: 12px;
+}
+.news_con:last-child p:nth-of-type(2) {
+    font-size: 14px;
+}
+.news_con p:last-child {
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
+/* footer */
+footer {
+    background-color: #F6F6F6;
+}
+footer ul {
+    padding-left: 0;
+}
+.siteMap,
+.familySite {
+    font-size: 14px;
+}
+footer .bottom a,
+footer .bottom p {
+    font-size: 14px;
+}
